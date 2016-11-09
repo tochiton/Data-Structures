@@ -1,0 +1,23 @@
+main.cpp: In function ‘int main()’:
+main.cpp:22:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  object.create_message("April",50344422,"miss you");
+                                                   ^
+main.cpp:22:51: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+queue.cpp: In member function ‘int queue::enqueue(entry_message&)’:
+queue.cpp:8:17: error: ‘class entry_message’ has no member named ‘copy_from’
+   temp -> entry.copy_from(to_add);
+                 ^
+queue.cpp:16:17: error: ‘class entry_message’ has no member named ‘copy’
+   temp -> entry.copy(to_add);
+                 ^
+queue.cpp: At global scope:
+queue.cpp:52:6: error: prototype for ‘int queue::remove_entries(node*&)’ does not match any in class ‘queue’
+ int  queue::remove_entries(node *& rear)
+      ^
+In file included from queue.cpp:1:0:
+queue.h:22:7: error: candidate is: int queue::remove_entries(q_node*&)
+   int remove_entries(q_node *& rear);
+       ^
+stack.cpp:61:1: error: ‘messeage_entry’ does not name a type
+ messeage_entry * stack:: peek()
+ ^

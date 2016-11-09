@@ -1,0 +1,5 @@
+honda:civic:2007:10000:2:airbags:stero:
+subaru:challenger:2012:14000:2:music:sunroof:
+honda:acura:2014:56000:0:
+honda:civic:2008:50000:1:music:
+Audi:loco:2011:7000:1:airbags:
